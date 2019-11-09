@@ -22,7 +22,7 @@ public class Route {
 	public void generateRoute() {
 		NodeController nc = new NodeController();
 		
-		for(int i = 0; i < this.numOfNode-1; i++) {
+		for(int i = 0; i < this.numOfNode; i++) {
 			this.routes.add(nc.getNodes(i));
 		}
 		
